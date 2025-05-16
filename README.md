@@ -4,6 +4,8 @@
 
 K-DECORE (Knowledge DEcoupling for COntinual REasoning) is a novel framework for continual structured knowledge reasoning (CSKR) that enables large language models to effectively handle sequential SKR tasks while maintaining a fixed parameter count. 
 
+![image](https://github.com/user-attachments/assets/d13a6aa5-bcb5-4049-a354-3c10e7574872)
+
 The framework introduces:
 - 🔄 Knowledge decoupling mechanism for task-specific and task-agnostic reasoning
 - 🧠 Dual-perspective memory consolidation
