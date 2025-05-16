@@ -1,0 +1,177 @@
+{
+  "task1_stage1":{
+    "file_name": "task1/grailqa_train1.json",
+    "columns": {
+      "prompt": "instruction",
+      "system": "system",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "task2_stage1":{
+    "file_name": "task2/mtop_train1.json",
+    "columns": {
+      "prompt": "instruction",
+      "system": "system",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "task3_stage1":{
+    "file_name": "task3/spider_train1.json",
+    "columns": {
+      "prompt": "instruction",
+      "system": "system",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "task4_stage1":{
+    "file_name": "task4/compwebq_train1.json",
+    "columns": {
+      "prompt": "instruction",
+      "system": "system",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "task1_stage2":{
+    "file_name": "task1/grailqa_train2.json",
+    "columns": {
+      "prompt": "instruction",
+      "system": "system",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "task2_stage2":{
+    "file_name": "task2/mtop_train2.json",
+    "columns": {
+      "prompt": "instruction",
+      "system": "system",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "task3_stage2":{
+    "file_name": "task3/spider_train2.json",
+    "columns": {
+      "prompt": "instruction",
+      "system": "system",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "task4_stage2":{
+    "file_name": "task4/compwebq_train2.json",
+    "columns": {
+      "prompt": "instruction",
+      "system": "system",
+      "query": "input",
+      "response": "output"
+    }
+  },
+
+
+  "test1_stage1":{
+    "file_name": "task1/grailqa_test1.json",
+    "columns": {
+      "prompt": "instruction",
+      "system": "system"
+    }
+  },
+  "test2_stage1":{
+    "file_name": "task2/mtop_test1.json",
+    "columns": {
+      "prompt": "instruction",
+      "system": "system"
+    }
+  },
+  "test3_stage1":{
+    "file_name": "task3/spider_test1.json",
+    "columns": {
+      "prompt": "instruction",
+      "system": "system"
+    }
+  },
+  "test4_stage1":{
+    "file_name": "task4/compwebq_test1.json",
+    "columns": {
+      "prompt": "instruction",
+      "system": "system"
+    }
+  },
+
+
+  
+  "task1_test1":{
+    "file_name": "task1/grailqa_test2_M1.json",
+    "columns": {
+      "prompt": "instruction",
+      "system": "system"
+    }
+  },
+  "task1_test2":{
+    "file_name": "task1/grailqa_test2_M2.json",
+    "columns": {
+      "prompt": "instruction",
+      "system": "system"
+    }
+  },
+  "task1_test3":{
+    "file_name": "task1/grailqa_test2_M3.json",
+    "columns": {
+      "prompt": "instruction",
+      "system": "system"
+    }
+  },
+  "task1_test4":{
+    "file_name": "task1/grailqa_test2_M4.json",
+    "columns": {
+      "prompt": "instruction",
+      "system": "system"
+    }
+  },
+  "task2_test2":{
+    "file_name": "task2/mtop_test2_M2.json",
+    "columns": {
+      "prompt": "instruction",
+      "system": "system"
+    }
+  },
+  "task2_test3":{
+    "file_name": "task2/mtop_test2_M3.json",
+    "columns": {
+      "prompt": "instruction",
+      "system": "system"
+    }
+  },
+  "task2_test4":{
+    "file_name": "task2/mtop_test2_M4.json",
+    "columns": {
+      "prompt": "instruction",
+      "system": "system"
+    }
+  },
+  "task3_test3":{
+    "file_name": "task3/spider_test2_M3.json",
+    "columns": {
+      "prompt": "instruction",
+      "system": "system"
+    }
+  },
+  "task3_test4":{
+    "file_name": "task3/spider_test2_M4.json",
+    "columns": {
+      "prompt": "instruction",
+      "system": "system"
+    }
+  },
+  "task4_test4":{
+    "file_name": "task4/compwebq_test2_M4.json",
+    "columns": {
+      "prompt": "instruction",
+      "system": "system"
+    }
+  }
+}

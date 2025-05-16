@@ -1,0 +1,6 @@
+
+torch===2.5.1
+vllm==0.6.5
+nltk
+sql_metadata
+SPARQLWrapper
