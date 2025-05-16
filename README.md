@@ -1,4 +1,4 @@
-# K-DECORE: Knowledge Decoupling for Continual Structured Knowledge Reasoning
+# K-DECORE: Facilitating Knowledge Transfer in Continual Structured Knowledge Reasoning via Knowledge Decoupling
 
 ## Overview
 
