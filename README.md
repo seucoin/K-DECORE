@@ -1,4 +1,4 @@
-# K-DECORE: Facilitating Knowledge Transfer in Continual Structured Knowledge Reasoning via Knowledge Decoupling
+# 【NeurIPS' 2025】K-DECORE: Facilitating Knowledge Transfer in Continual Structured Knowledge Reasoning via Knowledge Decoupling
 
 ## Overview
 
@@ -71,5 +71,10 @@ K-DECORE achieves state-of-the-art performance on continual SKR tasks, demonstra
 ## Citation
 
 ```bibtex
-[Citation will be added after publication]
+@article{chen2025k,
+  title={K-DeCore: Facilitating Knowledge Transfer in Continual Structured Knowledge Reasoning via Knowledge Decoupling},
+  author={Chen, Yongrui and Huang, Yi and Liu, Yunchang and Zhang, Shenyu and He, Junhao and Wu, Tongtong and Qi, Guilin and Wu, Tianxing},
+  journal={arXiv preprint arXiv:2509.16929},
+  year={2025}
+}
 ```
