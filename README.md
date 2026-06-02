@@ -41,14 +41,6 @@ pip install -r requirements.txt
 bash K-DECORE_order1_llama3.sh
 ```
 
-## Data
-
-The framework is evaluated on four benchmark datasets:
-- GrailQA
-- MTOP 
-- Spider
-- CompWebQ
-
 ## Directory Structure
 
 ```
@@ -60,6 +52,45 @@ K-DECORE/
 ├── K-DECORE.sh           # Main training pipeline
 └── requirements.txt       # Dependencies
 ```
+
+## Data
+
+The framework is evaluated on four benchmark datasets:
+- GrailQA
+- MTOP 
+- Spider
+- CompWebQ
+
+## Data Preparation
+
+### 1. Evaluation Directory Structure
+```
+K-DECORE/
+├── data/                      # Training dataset storage
+└── evaluate/                  # Evaluation scripts and assets
+    └── database/
+        └── spider/            # <-- Setup needed for Spider
+            ├── database/      # Folder containing multiple .sqlite files
+            ├── dev_gold.sql
+            ├── dev.json
+            ├── tables.json
+            └── ...
+```
+
+### 2. Dataset Setup Guidelines
+#### 📊 Spider Dataset Setup
+The evaluation scripts require the complete Spider SQL schemas. You can quickly download the pre-packaged environment from the [StructLM](https://github.com/TIGER-AI-Lab/StructLM/tree/main/third_party/spider) repository.
+
+1. Download the spider folder from the link above.
+2. Unzip and place the entire contents into evaluate/database/spider/.
+3. Crucial: Ensure that the final path containing all the SQLite databases is exactly evaluate/database/spider/database/.
+
+#### 🌐 CompWebQ (ComplexWebQuestions) Knowledge Graph Setup
+Evaluating the CompWebQ task requires interacting with a local deployment of the Freebase Knowledge Graph.
+
+1. Graph Database: Ensure you have installed and populated a Virtuoso instance with the official Freebase RDF triples (or the specific subset required for CompWebQ evaluation).
+2. SPARQL Endpoint: Start your local Virtuoso server before triggering the evaluation script.
+3. Configuration: Double-check your SPARQL endpoint connection string (typically http://localhost:8890/sparql) inside the evaluate/configure/ configuration files to match your local port setup.
 
 ## Results
 
